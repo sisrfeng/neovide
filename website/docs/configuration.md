@@ -2,8 +2,11 @@
 
 ## Global Vim Settings
 
-Neovide supports settings via global variables with a neovide prefix. They enable configuring many
-parts of the editor and support dynamically changing them at runtime.
+Neovide supports settings via
+global variables with a neovide prefix.
+They enable configuring many parts of the editor and
+support dynamically changing them at runtime.
+
 
 ### `init.vim` helpers
 
@@ -261,8 +264,12 @@ let g:neovide_touch_drag_timeout = 0.17
 Setting `g:neovide_touch_drag_timeout` will affect how many seconds the cursor has to stay inside
 `g:neovide_touch_deadzone` in order to begin "dragging"
 
-Once started, the finger can be moved to another position in order to form a visual selection. If
-this happens too often accidentally to you, set this to a higher value like `0.3` or `0.7`.
+Once started,
+the finger can be moved to another position in order to
+form a visual selection.
+If this happens too often accidentally to you,
+set this to a higher value like `0.3` or `0.7`.
+
 
 ### Cursor Settings
 
